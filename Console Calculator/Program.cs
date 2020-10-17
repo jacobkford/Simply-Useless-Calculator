@@ -91,8 +91,8 @@ namespace Console_Calculator
                                 numSucess = true;
 
                                 // Calculates and prints the answer
-                                int Answer = Calculator.Add(firstNumber, secondNumber);
-                                Result.Answer(userOp, firstNumber, secondNumber, Answer);
+                                int result = Calculator.Add(firstNumber, secondNumber);
+                                Result.Answer(userOp, firstNumber, secondNumber, result);
                             }
                             catch
                             {

@@ -75,7 +75,6 @@ namespace Console_Calculator.GUI
         public static void Print(string Operator)
         {
             Console.WriteLine();
-            Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.BackgroundColor = ConsoleColor.Yellow;
             Console.WriteLine("[" + Operator + "] Operator Has Been Selected ");
