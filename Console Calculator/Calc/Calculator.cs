@@ -40,21 +40,6 @@ namespace Console_Calculator.Calc
             int Answer = Num1 / Num2;
             return Answer;
         }
-
-        private int GetCalcNum()
-        {
-            int num;
-
-            bool parseCheck = Int32.TryParse(Console.ReadLine(), out num);
-
-            while (!parseCheck)
-            {
-                Console.WriteLine("Error: Try again! Make sure you're using a number.");
-                parseCheck = Int32.TryParse(Console.ReadLine(), out num);
-            }
-
-            return num;
-        }
-
+        
     }
 }
